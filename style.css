@@ -1,0 +1,108 @@
+
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+
+        form {
+            margin-bottom: 2rem;
+        }
+
+        form label {
+            display: block;
+            margin: 0.5rem 0 0.2rem;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f9f9f9;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            position: relative;
+        }
+
+        ul li strong {
+            font-size: 1.2rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        ul li em {
+            display: block;
+            margin-top: 0.5rem;
+            color: #555;
+        }
+
+        ul li button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #d9534f;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        ul li button:hover {
+            background: #c9302c;
+        }
+   
+
